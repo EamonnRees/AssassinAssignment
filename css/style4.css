@@ -1,0 +1,39 @@
+/*SIGN-UP PAGE CSS*/
+
+body {background-color:grey;}
+
+/*Wrapper*/
+#wrapper {width:960px; height:600px; margin:0 auto; margin-top:100px;}
+
+/*Header: same throughout*/
+#header {width:100%; height:15%; background-color:white;}
+#logo {width:10%; height:100%; float:left;}
+#logo2 {width:20%; height:100%; float:left;}
+#altair {width:14%; height:40%; float:left; background-color:white;}
+#ezio {width:14%; height:40%; float:left; background-color:white;}
+#connor {width:14%; height:40%; float:left; background-color:white;}
+#edward {width:14%; height:40%; float:left; background-color:white;}
+#comingsoon {width:14%; height:40%; float:left; background-color:white;}
+#gif {width:70%; height:60%; float:left; background-color:orange;}
+.headerimg {width:100%; height:100%;}
+
+/*Main*/
+#main {width:100%; height:85%; background-color:white;}
+
+#toptop {width:100%; height:14%; float:left;}
+#tleft {width:30%; height:100%; float:left;}
+#tmid {width:40%; height:100%; float:left;}
+#tright {width:30%; height:100%; float:right;}
+
+#top {width:100%; height:14%; float:left;}
+
+#midmid {width:100%; height:14%; float:left;}
+
+#mid{width:100%; height:14%; float:left;}
+
+#bottombottom {width:100%; height:14%; float:left;}
+
+#bottom {width:100%; height:14%; float:left;}
+#bleft {width:30%; height:100%; float:left;}
+#bmid {width:40%; height:100%; float:left;}
+#bright {width:30%; height:100%; float:right;}
