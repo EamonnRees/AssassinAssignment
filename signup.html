@@ -2,6 +2,14 @@
 <html>
 
 	<head>
+		<script src="jquery/jqueryCalendar/jquery-1.6.2.min.js"></script>
+		<script src="jquery/jqueryCalendar/jquery-ui-1.8.15.custom.min.js"></script>
+		<link rel="stylesheet" href="jquery/jqueryCalendar/jqueryCalendar.css">
+		<script>
+						jQuery(function() {
+										jQuery( "#textbox1" ).datepicker();
+						});
+						</script>
 		<link rel="stylesheet" type="text/css" href="css/style4.css"/>
 		<title>
 			Assassin's Creed
@@ -33,47 +41,42 @@
 					<a href="comingsoon.html" target="_blank"><img class="headerimg" title="Click to go to Coming Soon Page" src="image/button/comingsoonbutton.jpg" alt="comingsoonbutton"></a>
 				</div>
 				<div id="gif">
-					<a href="index.html"><img class="headerimg" src="image/box.gif" alt="runninggif"></a>
+					<a href="index.html"><img class="headerimg" title="Click to go to Home Page" src="image/box.gif" alt="runninggif"></a>
 				</div>
 			</div>
 			<div id="main">
-				<form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
-				<div id="toptop">
+				<div id="top">
 					<div id="tleft">
-					
+				
 					</div>
 					<div id="tmid">
 						<h1>Sign Up</h1>
 					</div>
 					<div id="tright">
-					
+				
 					</div>
 				</div>
-				<div id="top">
-					Name:<input type="text" name="name" value="your name">
-				</div>
-				<div id="midmid">
-					E-mail:<input type="text" name="mail" value="your email">
-				</div>
 				<div id="mid">
-				
-				</div>
-				<div id="bottombottom">
-				
+					<form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
+					Name:<input type="text" name="name" value="your name"><br>
+					E-mail:<input type="text" name="mail" value="your email"><br>
+					Age:<input type="number" min="1" max="100" value="1"><br>
+					Birthday:<input type="text" id="textbox1"/><br>
+					<input type="submit" value="Send">
+					<input type="reset" value="Reset">
+					</form>
 				</div>
 				<div id="bottom">
 					<div id="bleft">
-					
+				
 					</div>
 					<div id="bmid">
-						<input type="submit" value="Send">
-						<input type="reset" value="Reset">
+				
 					</div>
 					<div id="bright">
-					
+				
 					</div>
 				</div>
-				</form>
 			</div>
 		</div>
 	</body>

@@ -1,21 +1,40 @@
 /*COMING SOON PAGE CSS*/
 
-body {background-color:grey;}
+body, html {background-color:grey; width:100%; height:100%; overflow:hidden;}
 
 /*Wrapper*/
-#wrapper {width:960px; height:600px; margin:0 auto; margin-top:100px;}
+#wrapper {width:100%; height:100%;}
 
 /*Header: same throughout*/
-#header {width:100%; height:15%; background-color:white;}
+#header {width:100%; height:15%;}
 #logo {width:10%; height:100%; float:left;}
 #logo2 {width:20%; height:100%; float:left;}
-#altair {width:14%; height:40%; float:left; background-color:white;}
-#ezio {width:14%; height:40%; float:left; background-color:white;}
-#connor {width:14%; height:40%; float:left; background-color:white;}
-#edward {width:14%; height:40%; float:left; background-color:white;}
-#comingsoon {width:14%; height:40%; float:left; background-color:white;}
-#gif {width:70%; height:60%; float:left; background-color:orange;}
+#altair {width:14%; height:40%; float:left;}
+#ezio {width:14%; height:40%; float:left;}
+#connor {width:14%; height:40%; float:left;}
+#edward {width:14%; height:40%; float:left;}
+#comingsoon {width:14%; height:40%; float:left;}
+#gif {width:70%; height:60%; float:left;}
 .headerimg {width:100%; height:100%;}
 
 /*Main*/
-#main {width:100%; height:85%; background-color:white;}
+#main {width:100%; height:85%; background-image:url('../image/background.jpg'); background-repeat:no-repeat; background-size:100% 100%;}
+h1, h2 {color:white;}
+
+#top {width:100%; height:15%; float:left;}
+#tleft {width:30%; height:100%; float:left;}
+#tmid {width:40%; height:100%; float:left;}
+#tright {width:30%; height:100%; float:right;}
+
+#bottom{width:100%; height:85%; float:left;}
+#btoptop {width:100%; height:15%; float:left;}
+#btop {width:100%; height:10%; float:left;}
+#l {width:5%; height:100%; float:left;}
+#ll {width:35%; height:100%; float:left;}
+#bmid{width:100%; height:60%; float:left;}
+#lgut {width:5%; height:100%; float:left;}
+#upic {width:35%; height:100%; float:left; background-color:white;}
+#cbar {width:20%; height:100%; float:left;}
+#uvid {width:35%; height:100%; float:left; background-color:white;}
+#rgut {width:5%; height:100%; float:left;}
+#bbottom {width:100%; height:15%; float:left;}
